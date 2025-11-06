@@ -18,7 +18,11 @@
 
     <div class="center-container">
         <button onclick="window.open('./doc/Definiciones.pdf')" class="active">
-            <p>Tema 1: Introducción - Conceptos</p>
+            <p>Tema 1: Ciberseguridad</p>
+        </button>
+
+        <button onclick="window.open('./doc/Definiciones.pdf')" class="active">
+            <p>Tema 2: Servidor web seguro</p>
         </button>
     </div>
 
