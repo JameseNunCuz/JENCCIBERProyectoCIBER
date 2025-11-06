@@ -17,7 +17,7 @@
     </div>
 
     <div class="center-container">
-        <button onclick="window.open('./doc/Definiciones.pdf')" class="active">
+        <button onclick="window.open('https://github.com/JameseNunCuz/JENCDAWProyectoDAW/blob/developerJENC/README.md')" class="active">
             <p>Tema 1: Ciberseguridad</p>
         </button>
 
