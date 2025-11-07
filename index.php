@@ -24,6 +24,10 @@
         <button onclick="window.open('https://github.com/JameseNunCuz/JENCDAWProyectoDAW/blob/developerJENC/README.md')" class="active">
             <p>Tema 2: Servidor web seguro</p>
         </button>
+
+        <button onclick="window.open('./doc/251103ProtocoloInstalaciónServidorWebAMP.pdf')" class="active">
+            <p>Protocolo de instalación del servidor web</p>
+        </button>
     </div>
 
     <div class="footer">
