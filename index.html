@@ -9,30 +9,35 @@
 </head>
 
 <body>
-    <div class="header">
+    <header>
         <div class="title">
             <h1>Fundamentos de ciberseguridad</h1>
         </div>
-        <button class="home active" onclick="location.href = '../'"><img src="./webresources/home.png"></button>
-    </div>
+    </header>
 
-    <div class="center-container">
+    <main>
         <button onclick="window.open('./doc/Definiciones.pdf')" class="active">
             <p>Tema 1: Ciberseguridad</p>
         </button>
 
-        <button onclick="window.open('https://github.com/JameseNunCuz/JENCDAWProyectoDAW/blob/developerJENC/README.md')" class="active">
+        <button onclick="window.open('https://github.com/JameseNunCuz/JENCDAWProyectoDAW/blob/developerJENC/README.md')"
+            class="active">
             <p>Tema 2: Servidor web seguro</p>
         </button>
 
         <button onclick="window.open('./doc/251103ProtocoloInstalaciónServidorWebAMP.pdf')" class="active">
             <p>Protocolo de instalación del servidor web</p>
         </button>
-    </div>
+    </main>
 
-    <div class="footer">
-        <h3>James Edward Nuñez Cuzcano</h3>
-    </div>
+    <footer>
+        <h2>James Edward Nuñez Cuzcano</h2>
+        <div>
+            <button class="active" onclick="window.open('https://github.com/JameseNunCuz')"><img
+                    src="./webresources/github.png"></button>
+            <button class="active" onclick="location.href='../'"><img src="./webresources/home.png"></button>
+        </div>
+    </footer>
 </body>
 
 </html>
